@@ -39,5 +39,5 @@ func handleConnection(conn net.Conn) {
 	}
 
 	// Print the incoming data
-	fmt.Printf("Received: %s", buf)
+	fmt.Printf("Received: %s\n", buf)
 }
